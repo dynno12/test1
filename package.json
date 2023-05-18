@@ -1,0 +1,37 @@
+{
+  "name": "test1",
+  "description": "just a test",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dynno12/test1.git"
+  },
+  "publisher": "dynnov221",
+  "engines": {
+    "vscode": "^1.78.2"
+  },
+  "categories": ["Programming Languages", "Themes"],
+  "contributes": {
+    "languages": [
+      {
+        "id": "generic",
+        "aliases": ["text"],
+        "extensions": [".tex"]
+      }
+   
+    ],
+    "grammars": [
+      {
+        "language": "none",
+        "scopeName": " ",
+        "path": "./syntaxes/latex.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "none",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
